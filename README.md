@@ -6,10 +6,10 @@ The purpose of this module is to help Tom, a Colorado Board of Elections employe
 ## Election-Audit Results
 -	There were 369,711 votes casted in this congressional election 
 -	The image below displays a breakdown of the number of votes and the percentages of total votes for each country. 
-https://github.com/kmakar24/Election-Analysis/issues/1#issue-1096998806
+<img width="196" alt="Screen Shot 2022-01-08 at 12 51 03 PM" src="https://user-images.githubusercontent.com/95380887/148654834-7e019f92-fb92-4314-8a2c-fc4436977b85.png">
 -	Denver county had the largest number of votes 
 -	The image below shows a breakdown of the number of votes and the percentages of the total votes each candidate received 
-https://github.com/kmakar24/Election-Analysis/issues/2#issue-1096998977
+<img width="196" alt="Screen Shot 2022-01-08 at 12 51 03 PM" src="https://user-images.githubusercontent.com/95380887/148654834-7e019f92-fb92-4314-8a2c-fc4436977b85.png">
 -	Diana DeGette won the election with a vote count of 272,892 which was 73.8% of the total votes 
 
 ##Election-Audit Summary 
