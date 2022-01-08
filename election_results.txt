@@ -1,0 +1,439 @@
+Python 3.7.6 (v3.7.6:43364a7ae0, Dec 18 2019, 14:18:50) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: /Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py
+Traceback (most recent call last):
+  File "/Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py", line 36, in <module>
+    with open(file_to_load) as election_data:
+FileNotFoundError: [Errno 2] No such file or directory: '../Resources/election_results.csv'
+>>> 
+= RESTART: /Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py
+Traceback (most recent call last):
+  File "/Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py", line 69, in <module>
+    if county_name not in county_list:
+NameError: name 'county_list' is not defined
+>>> 
+= RESTART: /Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py
+Traceback (most recent call last):
+  File "/Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py", line 82, in <module>
+    with open(file_to_save, "w") as txt_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'analysis/election_analysis.txt'
+>>> 
+= RESTART: /Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py
+
+Election Results
+-------------------------
+Total Votes: 369,712
+-------------------------
+
+County Votes:
+Raymon Anthony Doane : 3.1% (11,606)
+
+Traceback (most recent call last):
+  File "/Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py", line 104, in <module>
+    print(county_results)
+NameError: name 'county_results' is not defined
+>>> 
+= RESTART: /Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py
+
+Election Results
+-------------------------
+Total Votes: 369,712
+-------------------------
+
+County Votes:
+Raymon Anthony Doane : 3.1% (11,606)
+
+None
+Traceback (most recent call last):
+  File "/Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py", line 108, in <module>
+    if (county > winning_count) and (vote_percentage > winning_percentage):
+NameError: name 'county' is not defined
+>>> 
+= RESTART: /Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py
+
+Election Results
+-------------------------
+Total Votes: 369,712
+-------------------------
+
+County Votes:
+Raymon Anthony Doane : 3.1% (11,606)
+
+None
+Traceback (most recent call last):
+  File "/Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py", line 108, in <module>
+    if (county_name > winning_count) and (vote_percentage > winning_percentage):
+TypeError: '>' not supported between instances of 'str' and 'int'
+>>> 
+= RESTART: /Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py
+
+Election Results
+-------------------------
+Total Votes: 369,712
+-------------------------
+
+County Votes:
+Traceback (most recent call last):
+  File "/Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py", line 100, in <module>
+    vote_percentage = float(votes)/float(total_votes) * 100
+NameError: name 'votes' is not defined
+>>> 
+= RESTART: /Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py
+
+Election Results
+-------------------------
+Total Votes: 369,712
+-------------------------
+
+County Votes:
+Traceback (most recent call last):
+  File "/Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py", line 103, in <module>
+    candidate_results = print(f"{candidate_name} : {vote_percentage:.1f}% ({votes:,})\n")
+NameError: name 'votes' is not defined
+>>> 
+= RESTART: /Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py
+
+Election Results
+-------------------------
+Total Votes: 369,712
+-------------------------
+
+County Votes:
+Raymon Anthony Doane : 0.0% (1)
+
+None
+Traceback (most recent call last):
+  File "/Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py", line 108, in <module>
+    if (county > winning_count) and (vote_percentage > winning_percentage):
+NameError: name 'county' is not defined
+>>> 
+= RESTART: /Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py
+
+Election Results
+-------------------------
+Total Votes: 369,712
+-------------------------
+
+County Votes:
+Raymon Anthony Doane : 0.0% (1)
+
+None
+Traceback (most recent call last):
+  File "/Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py", line 109, in <module>
+    winning_count = county
+NameError: name 'county' is not defined
+>>> 
+= RESTART: /Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py
+
+Election Results
+-------------------------
+Total Votes: 369,712
+-------------------------
+
+County Votes:
+Raymon Anthony Doane : 0.0% (1)
+
+None
+Traceback (most recent call last):
+  File "/Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py", line 115, in <module>
+    f"-------------------------\n"
+NameError: name 'winning_county' is not defined
+>>> 
+= RESTART: /Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py
+
+Election Results
+-------------------------
+Total Votes: 369,712
+-------------------------
+
+County Votes:
+Raymon Anthony Doane : 0.0% (1)
+
+None
+Traceback (most recent call last):
+  File "/Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py", line 115, in <module>
+    f"-------------------------\n"
+ValueError: Cannot specify ',' with 's'.
+>>> 
+= RESTART: /Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py
+
+Election Results
+-------------------------
+Total Votes: 369,712
+-------------------------
+
+County Votes:
+Raymon Anthony Doane : 0.0% (1)
+
+None
+Raymon Anthony Doane : 10.5% (38,855)
+
+None
+Raymon Anthony Doane : 82.8% (306,055)
+
+None
+Raymon Anthony Doane : 6.7% (24,801)
+
+None
+Candidate: 0.0% (1)
+
+Charles Casper Stockham: 23.0% (85,213)
+
+Diana DeGette: 73.8% (272,892)
+
+Raymon Anthony Doane: 3.1% (11,606)
+
+-------------------------
+Winner: Diana DeGette
+Winning Vote Count: 272,892
+Winning Percentage: 73.8%
+-------------------------
+
+>>> 
+= RESTART: /Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py
+
+Election Results
+-------------------------
+Total Votes: 369,712
+-------------------------
+
+County Votes:
+Raymon Anthony Doane : 0.0% (1)
+
+Traceback (most recent call last):
+  File "/Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py", line 104, in <module>
+    print(county_results)
+NameError: name 'county_results' is not defined
+>>> 
+= RESTART: /Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py
+
+Election Results
+-------------------------
+Total Votes: 369,712
+-------------------------
+
+County Votes:
+Raymon Anthony Doane : 0.0% (1)
+
+None
+Raymon Anthony Doane : 10.5% (38,855)
+
+None
+Raymon Anthony Doane : 82.8% (306,055)
+
+None
+Raymon Anthony Doane : 6.7% (24,801)
+
+None
+Candidate: 0.0% (1)
+
+Charles Casper Stockham: 23.0% (85,213)
+
+Diana DeGette: 73.8% (272,892)
+
+Raymon Anthony Doane: 3.1% (11,606)
+
+-------------------------
+Winner: Diana DeGette
+Winning Vote Count: 272,892
+Winning Percentage: 73.8%
+-------------------------
+
+>>> 
+= RESTART: /Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py
+
+Election Results
+-------------------------
+Total Votes: 369,712
+-------------------------
+
+County Votes:
+County : 0.0% (1)
+
+None
+Jefferson : 10.5% (38,855)
+
+None
+Denver : 82.8% (306,055)
+
+None
+Arapahoe : 6.7% (24,801)
+
+None
+Candidate: 0.0% (1)
+
+Charles Casper Stockham: 23.0% (85,213)
+
+Diana DeGette: 73.8% (272,892)
+
+Raymon Anthony Doane: 3.1% (11,606)
+
+-------------------------
+Winner: Diana DeGette
+Winning Vote Count: 272,892
+Winning Percentage: 73.8%
+-------------------------
+
+>>> 
+= RESTART: /Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py
+
+Election Results
+-------------------------
+Total Votes: 369,712
+-------------------------
+
+County Votes:
+County : 0.0% (1)
+
+None
+Jefferson : 10.5% (38,855)
+
+None
+Denver : 82.8% (306,055)
+
+None
+Arapahoe : 6.7% (24,801)
+
+None
+Candidate: 0.0% (1)
+
+Charles Casper Stockham: 23.0% (85,213)
+
+Diana DeGette: 73.8% (272,892)
+
+Raymon Anthony Doane: 3.1% (11,606)
+
+-------------------------
+Winner: Diana DeGette
+Winning Vote Count: 272,892
+Winning Percentage: 73.8%
+-------------------------
+
+>>> 
+= RESTART: /Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py
+
+Election Results
+-------------------------
+Total Votes: 369,712
+-------------------------
+
+County Votes:
+County : 0.0% (1)
+
+None
+-------------------------
+Winner: County
+-------------------------
+
+Jefferson : 10.5% (38,855)
+
+None
+-------------------------
+Winner: Jefferson
+-------------------------
+
+Denver : 82.8% (306,055)
+
+None
+-------------------------
+Winner: Denver
+-------------------------
+
+Arapahoe : 6.7% (24,801)
+
+None
+-------------------------
+Winner: Denver
+-------------------------
+
+Candidate: 0.0% (1)
+
+Charles Casper Stockham: 23.0% (85,213)
+
+Diana DeGette: 73.8% (272,892)
+
+Raymon Anthony Doane: 3.1% (11,606)
+
+-------------------------
+Winner: Diana DeGette
+Winning Vote Count: 272,892
+Winning Percentage: 73.8%
+-------------------------
+
+>>> 
+= RESTART: /Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py
+
+Election Results
+-------------------------
+Total Votes: 369,712
+-------------------------
+
+County Votes:
+County : 0.0% (1)
+
+None
+Jefferson : 10.5% (38,855)
+
+None
+Denver : 82.8% (306,055)
+
+None
+Arapahoe : 6.7% (24,801)
+
+None
+-------------------------
+Winner: Denver
+-------------------------
+
+Candidate: 0.0% (1)
+
+Charles Casper Stockham: 23.0% (85,213)
+
+Diana DeGette: 73.8% (272,892)
+
+Raymon Anthony Doane: 3.1% (11,606)
+
+-------------------------
+Winner: Diana DeGette
+Winning Vote Count: 272,892
+Winning Percentage: 73.8%
+-------------------------
+
+>>> 
+= RESTART: /Users/kristenmakar/Desktop/Module Folder - data analytics/Election-Analysis/PyPoll_Challange.py
+
+Election Results
+-------------------------
+Total Votes: 369,712
+-------------------------
+
+County Votes:
+County : 0.0% (1)
+
+Jefferson : 10.5% (38,855)
+
+Denver : 82.8% (306,055)
+
+Arapahoe : 6.7% (24,801)
+
+-------------------------
+Winner: Denver
+-------------------------
+
+Candidate: 0.0% (1)
+
+Charles Casper Stockham: 23.0% (85,213)
+
+Diana DeGette: 73.8% (272,892)
+
+Raymon Anthony Doane: 3.1% (11,606)
+
+-------------------------
+Winner: Diana DeGette
+Winning Vote Count: 272,892
+Winning Percentage: 73.8%
+-------------------------
+
+>>> 
