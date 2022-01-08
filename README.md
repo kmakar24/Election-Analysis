@@ -9,7 +9,7 @@ The purpose of this module is to help Tom, a Colorado Board of Elections employe
 <img width="196" alt="Screen Shot 2022-01-08 at 12 51 03 PM" src="https://user-images.githubusercontent.com/95380887/148654834-7e019f92-fb92-4314-8a2c-fc4436977b85.png">
 -	Denver county had the largest number of votes 
 -	The image below shows a breakdown of the number of votes and the percentages of the total votes each candidate received 
-<img width="196" alt="Screen Shot 2022-01-08 at 12 51 03 PM" src="https://user-images.githubusercontent.com/95380887/148654834-7e019f92-fb92-4314-8a2c-fc4436977b85.png">
+<img width="290" alt="Screen Shot 2022-01-08 at 12 51 36 PM" src="https://user-images.githubusercontent.com/95380887/148654850-26b580f9-d016-44a3-a0dd-986ba25f1457.png">
 -	Diana DeGette won the election with a vote count of 272,892 which was 73.8% of the total votes 
 
 ##Election-Audit Summary 
